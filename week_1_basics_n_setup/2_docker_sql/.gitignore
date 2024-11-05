@@ -2,3 +2,5 @@ ny_taxi_postgres_data/
 yellow_tripdata_2021-01.csv
 output.csv
 output.csv.gz
+data_pgadmin/
+*.csv
