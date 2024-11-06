@@ -6,7 +6,7 @@ unzip terraform.zip;
 sudo mv terraform /usr/local/bin;
 rm terraform.zip;
 
-## Export credetials path and use it in the provider
+## Export credetials path and use it in the provider (not necessary after the variables)
 export GOOGLE_CREDENTIALS='/home/viniciuspc/git/data-engieneering-zoomcamp/week_1_basics_n_setup/1_terraform_gcp/keys/my-creds.json'
 
 ## Terraform commands
