@@ -5,7 +5,7 @@ variable "credentials" {
 
 variable "project" {
   description = "Project from GCP"
-  default     = "terraform-demo-440914"
+  default     = "de-zoomcamp-viniciuspc"
 }
 
 variable "region" {

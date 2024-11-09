@@ -6,6 +6,13 @@ unzip terraform.zip;
 sudo mv terraform /usr/local/bin;
 rm terraform.zip;
 
+## Create a IAM Service Account on Google Cloud
+- name: terraform-runner
+- roles:
+-- Cloud Storage / Storage Admin
+-- BigQuery / BigQuery Admin
+-- Compute Engine / Compute Admin
+
 ## Export credetials path and use it in the provider (not necessary after the variables)
 export GOOGLE_CREDENTIALS='/home/viniciuspc/git/data-engieneering-zoomcamp/week_1_basics_n_setup/1_terraform_gcp/keys/my-creds.json'
 
